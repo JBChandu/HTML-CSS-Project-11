@@ -18,6 +18,6 @@
 - It took 1 hour to create HTML skeleton.
 - It took 3-5 hour to add styles to this project. 
 
-**Live Link :** [Deployed Link](https://html-css-project-11.vercel.app/)
+**Live Link :** [Deployed Link](https://html-css-project-11.netlify.app/)
 >### Preview :
 ![Homepage screenshot](./public/HostingLandingPage.png "Hosting Landing Page")
