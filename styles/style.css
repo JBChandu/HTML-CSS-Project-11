@@ -302,3 +302,119 @@ nav .list-items {
 .social-icons img {
   height: 30px;
 }
+
+@media only screen and (max-width: 1010px) {
+  .list-item {
+    display: none;
+  }
+}
+@media only screen and (max-width: 878px) {
+  .navbar {
+    margin-top: 2%;
+  }
+  .nav-btn {
+    margin-right: 3%;
+  }
+  .hero-section1,
+  .hero-section2,
+  .hero-section3 {
+    grid-template-columns: 1fr;
+    gap: 3%;
+  }
+  .hero-section1 .hero1-img {
+    margin-left: -10%;
+  }
+  img.hero1-img,
+  img.hero2-img,
+  img.hero3-img {
+    width: 350px;
+  }
+  .hero-section2 .hero2-img {
+    margin-left: 10%;
+  }
+  .services-section .content-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  .pricing-section {
+    margin-top: 10%;
+  }
+  .pricing-cards {
+    grid-template-columns: 1fr;
+    gap: 5%;
+    margin-bottom: 20%;
+  }
+}
+@media only screen and (max-width: 695px) {
+  .services-section .content-cards {
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+  .content-cards {
+    margin-bottom: 80%;
+  }
+  .pricing-card {
+    margin-bottom: 25%;
+  }
+  .feedback-cards {
+    margin-bottom: 20%;
+  }
+
+  .hero-section1 .left h1,
+  .hero-section3 .left h1,
+  .heading h1 {
+    font-size: 24px;
+  }
+  .hero-section2 .right h1 {
+    font-size: 24px;
+  }
+
+  .hero-section1 .left p,
+  .hero-section3 .left p,
+  .heading p {
+    font-size: 12px;
+  }
+  .hero-section2 .right p {
+    font-size: 12px;
+  }
+  .nav-btn {
+    margin-left: -5%;
+    font-size: 12px;
+  }
+  .services-section .content-cards .card {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .hero-section3 .right {
+    margin-left: -10%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  img.hero1-img,
+  img.hero2-img,
+  img.hero3-img {
+    width: 300px;
+  }
+  .footer-section .link1 {
+    display: none;
+  }
+  .socialMedia {
+    grid-column: 5/6;
+  }
+  .button-reg-btn {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+  .reg-section .left h1 {
+    font-size: 16px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card h4 {
+    font-size: 14px;
+  }
+  .profile div {
+    margin-left: 5%;
+  }
+}
